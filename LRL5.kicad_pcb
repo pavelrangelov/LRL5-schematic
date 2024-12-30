@@ -48,7 +48,7 @@
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Manufacturing/")
 		)
 	)
 	(net 0 "")
@@ -4988,7 +4988,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 0 -1.75 360)
+			(at 0 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "df553163-3ca2-49f7-9e71-20c26a79bfdc")
 			(effects
@@ -4999,7 +4999,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0.0375 2 360)
+			(at 0.0375 2 0)
 			(layer "F.Fab")
 			(uuid "cb2c24d8-509a-4c1d-8fdc-10ac6fbea200")
 			(effects
@@ -5154,7 +5154,7 @@
 			(uuid "c22c7950-8555-45d2-8a5c-421ff836b5a0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5af3af66-066f-4524-8cd1-b38ae1b74c9d")
 			(effects
