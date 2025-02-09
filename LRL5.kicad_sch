@@ -4451,9 +4451,9 @@
 		)
 		(uuid "3a5bc6be-8d3d-4b9d-a109-dea4cbceb24e")
 	)
-	(text "PB9"
+	(text "B9"
 		(exclude_from_sim no)
-		(at 246.38 41.91 0)
+		(at 247.015 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4661,9 +4661,9 @@
 		)
 		(uuid "d654b16d-d27d-4626-9bd2-0ce3b71d2075")
 	)
-	(text "PB8"
+	(text "B8"
 		(exclude_from_sim no)
-		(at 246.38 44.45 0)
+		(at 247.015 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6749,7 +6749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
 			(at 62.23 155.575 0)
 			(effects
 				(font
